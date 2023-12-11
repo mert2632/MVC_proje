@@ -1,0 +1,88 @@
+/* SiteUpdateForm.css */
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-container11 {
+    margin: 0 auto;
+    width: 55%; /* İstediğiniz genişliği ayarlayabilirsiniz */
+}
+
+.input-file-container22,
+.input-file-container33 {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.input-file-container22 input[type="file"],
+.input-file-container33 input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.input-file-container22 .file-label,
+.input-file-container33 .file-label {
+    display: block;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.input-file-container22 input[type="file"]:focus + .file-label,
+.input-file-container33 input[type="file"]:focus + .file-label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+.form-container11 label,
+.form-container11 input,
+.form-container11 textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-container11 input {
+ height:30px;
+}
+
+.button-container44 {
+    text-align: center;
+}
+.button-container44 button {
+    width:150px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+transition: background-color 0.3s ease-in-out;
+}
+
+.button-container44 button:hover {
+    background-color: rgb(41, 67, 185);
+}
+.selected-image {
+    width: 55%;
+    display: block;
+    margin: 10px auto;
+    max-height: 200px; /* Sınırlı bir maksimum yükseklik */
+}
+
+
+/* alttaki eski css bunu sil */

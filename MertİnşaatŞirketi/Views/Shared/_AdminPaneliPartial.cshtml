@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Admin Paneli";
+}
+<style>
+    .form-button{
+        display: block;
+        color: blueviolet;
+    }
+    .form-button,
+    .menu-item a {
+        color: rgb(83, 47, 108); /* Mor renk */
+    }
+</style>
+<link rel="stylesheet" href="~/css/form.css"/>
+<script src="adminpanel.js"></script>
+
+<h2 style="text-align: center;">Admin Paneline Hoş Geldiniz</h2>
+
+<div class="admin-panel">
+    <div class="menu-item">
+        <h3>Admin İşlemleri</h3>
+            <button class="form-button" type="submit"><a  href="~/Admin/AdminListesi">Admin Listesi</a></button>  
+            <button class="form-button" type="submit"><a  href="~/Admin/AdminEkle"> Admin  Ekle</a></button>        
+    </div>
+    <div class="menu-item">
+        <h3>Personel İşlemleri</h3>
+        <button class="form-button" type="submit"><a  href="~/Personel/PersonelListesi">PERSONEL LİSTESİ</a></button>
+        <button class="form-button" type="submit"><a  href="~/Personel/PersonelEkle">PERSONEL EKLE</a></button>
+    </div>
+    <div class="menu-item">
+        <h3>Müşteri işlemleri</h3>
+        <button class="form-button" type="submit"><a  href="~/Musteri/MusteriListesi">Musteri İletişim Listesi</a></button>
+        
+    </div>
+    <div class="menu-item">
+        <h3>İŞLEMLER</h3>
+        <button class="form-button" type="submit"><a  href="~/İletişim/FirmaAdresCreate">Firma Adres Değiştir</a></button>  
+        <button class="form-button" type="submit"><a  href="~/Projelerimiz/ProjelerimizListesi">Projeler Listesi</a></button>
+        <button class="form-button" type="submit"><a  href="~/Projelerimiz/ProjelerimizCreate">Proje EKLE</a></button>  
+        <button class="form-button" type="submit"><a  href="~/Blog/BlogCreate">BLOG EKLE</a></button>  
+        <button class="form-button" type="submit"><a  href="~/Blog/index">BLOGLAR Listesi</a></button>  
+
+    </div>
+    <div class="menu-item">
+        <h3>SİTE DÜZENLE</h3>
+        <button class="form-button" type="submit"><a  href="~/Anasayfa/anasayfaCreate">Anasayfa DÜZENLE</a></button>  
+        <button class="form-button" type="submit"><a  href="~/Hakkımızda/hakkimizdaCreate">Hakkımızda DÜZENLE</a></button>    
+    </div>
+   
+    <div class="menu-item">
+        <h3><a href="~/Anasayfa/index">Çıkış Yap</a></h3>
+    </div>
+    
+    
+    

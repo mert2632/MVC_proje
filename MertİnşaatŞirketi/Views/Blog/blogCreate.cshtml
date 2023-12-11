@@ -1,0 +1,37 @@
+@model BlogModel
+<link rel="stylesheet" href="~/css/SiteUpdateForm.css"/>
+<section class="iletisimForm">
+    <form asp-action="blogCreate" method="post" enctype="multipart/form-data">
+        <h3>Blog Güncelleme Formu</h3>
+        <div class="form-container11">
+            <div class="input-file-container22">
+                <label asp-for="Blogİmage" class="file-label">Resim 1: Dosya Seç</label>
+            
+            </div>
+            @if (Model != null && Model.Blogİmage != null)
+            {
+                <img src="~/img/@Model.Blogİmage" class="selected-image" id="selectedImage1" alt="SelectedImage1">
+            }
+            <input asp-for="Blogİmage" type="file" name="Blogİmage" id="Blogİmage" />
+           
+
+            <label asp-for="BlogBaşlık">Blog Başlık :</label>
+            <input asp-for="BlogBaşlık" type="text" name="BlogBaşlık"/>
+          
+
+            <label asp-for="BlogAçıklama">Blog Açıklama 1:</label>
+            <textarea asp-for="BlogAçıklama" name="BlogAçıklama" rows="9"></textarea>
+
+            <label asp-for="BlogTarih">Blog Tarih:</label>
+            <input asp-for="BlogTarih" type="text" name="BlogTarih"/>
+         
+        </div>
+        <div class="button-container44">
+            <button type="submit">Güncelle</button>
+        </div>
+    </form>
+
+<!-- java script kodları şeçilen resmi getirmek için -->
+
+<!-- Java script kodları şeçilen resmi göstermek için -->
+

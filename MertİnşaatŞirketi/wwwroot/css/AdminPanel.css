@@ -1,0 +1,33 @@
+.admin-panel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    display: none;
+}
+
+.menu-item.show p {
+    display: block;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+}

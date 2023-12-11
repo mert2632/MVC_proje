@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="~/css/musteri.css"/>
+@model IEnumerable<Personel>
+    <!-- Your content here -->
+    <h2 style="margin: 10px;">Personel LİSTESİ</h2>
+    <table class="custom-table">
+        <thead>
+            <tr>
+              
+                <th>@Html.DisplayNameFor(m=>m.PersonelID)</th>
+                <th>@Html.DisplayNameFor(m=>m.PersonelName)</th>
+                <th>@Html.DisplayNameFor(m=>m.PersonelÜnvan)</th>
+                <th>@Html.DisplayNameFor(m=>m.Personelİmage)</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var musteri in Model)
+            {
+            <tr>
+                <td>@musteri.PersonelID</td>
+                <td>@musteri.PersonelName</td>
+                <td>@musteri.PersonelÜnvan</td>
+                <td>
+                    <img style="height: 100px;"src="~/img/@musteri.Personelİmage"/>
+                </td>
+                <td>
+                    <a class="action-button"asp-controller="Personel"asp-action="PersonelGüncelle"
+                    asp-route-id="@musteri.PersonelID" ><button class="action-button">Güncelle</button></a>
+
+                     <a class="action-button1"asp-action="PersonelSil"
+                     asp-route-id="@musteri.PersonelID" ><button class="action-button1" >Sil</button></a>                       
+                </td>
+                              <!-- Add more columns as needed -->
+            </tr>
+            }
+        </tbody>
+    </table>

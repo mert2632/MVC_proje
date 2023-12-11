@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MertProje
+build_property.RootNamespace = MertProje
+build_property.ProjectDir = C:\Users\okcu2\Desktop\MertMimarlikSitesi\MertİnşaatŞirketi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\okcu2\Desktop\MertMimarlikSitesi\MertİnşaatŞirketi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Admin/AdminEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Fa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Admin/AdminGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Hw7xuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Admin/AdminListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5MaXN0ZXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Admin/AdminSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5TaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Anasayfa/anasayfaCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcYW5hc2F5ZmFDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Anasayfa/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Anasayfa/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Blog/blogCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xibG9nQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Blog/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Hakkımızda/hakkimizdaCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra8SxbcSxemRhXGhha2tpbWl6ZGFDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Hakkımızda/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra8SxbcSxemRhXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Musteri/Güncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxHw7xuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Musteri/MusteriListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxNdXN0ZXJpTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Musteri/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxTaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Personel/PersonelEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcUGVyc29uZWxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Personel/PersonelGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcUGVyc29uZWxHw7xuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Personel/PersonelListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcUGVyc29uZWxMaXN0ZXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Personel/PersonelSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcUGVyc29uZWxTaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Projelerimiz/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVsZXJpbWl6XGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Projelerimiz/projelerimizCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVsZXJpbWl6XHByb2plbGVyaW1pekNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Projelerimiz/ProjelerimizGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVsZXJpbWl6XFByb2plbGVyaW1pekfDvG5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Projelerimiz/ProjelerimizListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVsZXJpbWl6XFByb2plbGVyaW1pekxpc3Rlc2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Projelerimiz/ProjelerimizSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVsZXJpbWl6XFByb2plbGVyaW1pelNpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_AdminPaneliPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblBhbmVsaVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_Body.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb2R5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_FirmaAdres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GaXJtYUFkcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_Footer2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/İletişim/firmaAdresCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLBsZXRpxZ9pbVxmaXJtYUFkcmVzQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/İletişim/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLBsZXRpxZ9pbVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/İletişim/_Musteriİletişim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLBsZXRpxZ9pbVxfTXVzdGVyacSwbGV0acWfaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/okcu2/Desktop/MertMimarlikSitesi/MertİnşaatŞirketi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hvkcyyinro

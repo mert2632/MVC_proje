@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="~/css/musteri.css"/>
+@model Projeler
+<div style="text-align: center;">
+    <div style="margin-top:20px;margin-bottom: 15px;"><div><b>@Model.ProjelerimizName </b> adlı personeli silmek istediğinizden emin misiniz?</div>
+    
+    <form asp-action="ProjelerimizSil" method="post">
+   <input type="hidden" name="id" value="@Model.ProjelerimizID">
+        <a class="action-button"  asp-controller="Projelerimiz" asp-action="ProjelerimizListesi">
+            <button type="submit" class="action-button">EVET</button></a>
+         <a class="action-button1" asp-controller="Projelerimiz" asp-action="ProjelerimizListesi">
+            <button type="button" class="action-button1" >HAYIR</button></a>   
+ <!-- yukarıda submit ve buton özelliklerimiz önemli kontrollerden talep ve silme işlemini gerçeklestireceğimiz 
+ tuşa submit vermeliyiz bu kontrolden aldığı görevi gerçeklestir burda 2 saat oyalanmıstım-->
+    </form>   
+</p>
+</div>
+<p>

@@ -1,0 +1,20 @@
+@model Projeler
+<link rel="stylesheet" href="~/css/SiteUpdateForm.css"/>
+<section class="iletisimForm">
+
+    <form asp-action="ProjelerimizGüncelle" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ProjelerimizID">
+        <h3>Personel GÜNCELLEME Formu</h3>
+      
+            <label asp-for="ProjelerimizName">Personel Name:</label>
+            <input asp-for="ProjelerimizName" type="text" name="ProjelerimizName"/>
+      
+        <div class="button-container44">
+            <button type="submit">Güncelle</button>
+        </div>
+    </form>
+
+<!-- java script kodları şeçilen resmi getirmek için -->
+
+
+

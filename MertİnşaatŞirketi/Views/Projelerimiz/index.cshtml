@@ -1,0 +1,19 @@
+@model IEnumerable<Projeler>
+     <div class="baslik">
+            <h1>Projelerimiz</h1> 
+        </div>
+        <section class="projeSection">
+            @foreach (var item in Model)
+            {
+            <div class="col2">
+                <a href="https://ceoproje.com.tr/insaat-yapi/insaat-projesi-nedir-nasil-cizilir/" class="next-button learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">@item.ProjelerimizName</span>
+                </a>
+            </div>  
+        }               
+       
+        </section>
+    

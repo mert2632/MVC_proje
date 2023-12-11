@@ -1,0 +1,31 @@
+@model Personel
+<!-- <link rel="stylesheet" href="~/css/SiteUpdateForm.css"/> -->
+<section class="iletisimForm">
+
+    <form asp-action="PersonelEkle" method="post" enctype="multipart/form-data">
+        <h3>Personel EKLE Formu</h3>
+        <div class="form-container11">
+            <div class="input-file-container22">
+                <label asp-for="Personelİmage" class="file-label">Resim 1: Dosya Seç</label>          
+            </div>
+            @if (Model != null && Model.Personelİmage != null)
+            {
+                <img src="~/img/@Model.Personelİmage" class="selected-image" id="selectedImage1" alt="Selected Image 1">
+            }          
+            <input asp-for="Personelİmage" type="file" name="Personelİmage" id="Personelİmage" />
+
+            <label asp-for="PersonelName">Personel Name:</label>
+            <input asp-for="PersonelName" type="text" name="PersonelName"/>
+
+            <label asp-for="PersonelÜnvan">Personel Ünvan:</label>
+            <input asp-for="PersonelÜnvan" type="text" name="PersonelÜnvan"/>
+        </div>
+        <div class="button-container44">
+            <button type="submit">Güncelle</button>
+        </div>
+    </form>
+
+<!-- java script kodları şeçilen resmi getirmek için -->
+
+
+

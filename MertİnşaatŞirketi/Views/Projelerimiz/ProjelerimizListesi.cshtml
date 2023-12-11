@@ -1,0 +1,33 @@
+@model IEnumerable<Projeler>
+    <link rel="stylesheet" href="~/css/musteri.css"/>
+    <!-- Your content here -->
+    <h2 style="margin: 10px;">PROJE LİSTESİ</h2>
+    <table class="custom-table">
+        <thead>
+            public int  ProjelerimizID { get; set; }
+            public string? ProjelerimizName { get; set; }
+            <tr>
+                <th>@Html.DisplayNameFor(m=>m.ProjelerimizID)</th>
+                <th>@Html.DisplayNameFor(m=>m.ProjelerimizName)</th>          
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var musteri in Model)
+            {
+            <tr>
+                <td>@musteri.ProjelerimizID</td>
+                <td>@musteri.ProjelerimizName</td>
+                <td>
+                    <a class="action-button"asp-controller="Projelerimiz"asp-action="ProjelerimizGüncelle"
+                    asp-route-id="@musteri.ProjelerimizID" ><button class="action-button">Güncelle</button></a>
+
+                     <a class="action-button1"asp-action="ProjelerimizSil"
+                     asp-route-id="@musteri.ProjelerimizID" ><button class="action-button1" >Sil</button></a>   
+                    
+                </td>
+                              <!-- Add more columns as needed -->
+            </tr>
+            }
+        </tbody>
+    </table>

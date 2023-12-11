@@ -1,0 +1,84 @@
+@model HakkımızdaModel
+<link rel="stylesheet" href="~/css/SiteUpdateForm.css"/>
+<section class="iletisimForm">
+    <form asp-action="hakkimizdaCreate" method="post" enctype="multipart/form-data">
+        <h3>HAKKIMIZDA Güncelleme Formu</h3>
+        <div class="form-container11">
+
+            <div class="input-file-container22">
+                <label asp-for="Hakkımızdaİmage" class="file-label">Resim 1: Dosya Seç</label>           
+            </div>
+            @if (Model != null && Model.Hakkımızdaİmage != null)
+            {
+                <img src="~/img/@Model.Hakkımızdaİmage" class="selected-image" id="selectedImage1" alt="Selected Image 1">
+            }
+            <input asp-for="Hakkımızdaİmage" type="file" name="Hakkımızdaİmage" id="Hakkımızdaİmage" />
+
+               <!-- resim2 -->
+            <div class="input-file-container33">
+                <label asp-for="Hakkımızdaİmage" class="file-label">Resim 2: Dosya Seç</label>
+              
+            </div>
+            @if (Model != null && Model.HakkımızdaPersonelİmage1 != null)
+            {
+                <img src="~/img/@Model.HakkımızdaPersonelİmage1" class="selected-image" id="selectedImage2" alt="Selected Image 2">
+            }
+            <input asp-for="HakkımızdaPersonelİmage1" type="file" name="HakkımızdaPersonelİmage1" id="HakkımızdaPersonelİmage1" />
+               <!-- resim3 -->
+            <div class="input-file-container33">
+                <label asp-for="HakkımızdaPersonelİmage1 " class="file-label">Resim 3: Dosya Seç</label>
+              
+            </div>
+            @if (Model != null && Model.HakkımızdaPersonelİmage2 != null)
+            {
+                <img src="~/img/@Model.HakkımızdaPersonelİmage2" class="selected-image" id="selectedImage2" alt="Selected Image 2">
+            }
+            <input asp-for="HakkımızdaPersonelİmage2" type="file" name="HakkımızdaPersonelİmage2" id="HakkımızdaPersonelİmage2" />
+
+            
+
+
+            <label asp-for="HakkımızdaBaşlık">Başlık 1:</label>
+            <input asp-for="HakkımızdaBaşlık" type="text" name="HakkımızdaBaşlık"/>
+          
+
+            <label asp-for="HakkımızdaAçıklama">Açıklama 1:</label>
+            <textarea asp-for="HakkımızdaAçıklama" name="HakkımızdaAçıklama" rows="9"></textarea>
+
+        </div>
+        <div class="button-container44">
+            <button type="submit">Güncelle</button>
+        </div>
+    </form>
+
+<!-- java script kodları şeçilen resmi getirmek için -->
+
+<!-- Java script kodları şeçilen resmi göstermek için -->
+<!-- <script>
+    // Resim 1 için
+    document.getElementById("Anasayfaİmage1").addEventListener("change", function () {
+        showSelectedImage("Anasayfaİmage1", "selectedImage1");
+    });
+
+    // Resim 2 için
+    document.getElementById("Anasayfaİmage2").addEventListener("change", function () {
+        showSelectedImage("Anasayfaİmage2", "selectedImage2");
+    });
+
+    function showSelectedImage(inputId, imgId) {
+        const input = document.getElementById(inputId);
+        const img = document.getElementById(imgId);
+
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                img.setAttribute("src", e.target.result);
+            };
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            img.src = "";
+        }
+    }
+</script> -->
+
+

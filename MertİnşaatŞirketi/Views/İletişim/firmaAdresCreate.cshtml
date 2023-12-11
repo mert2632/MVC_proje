@@ -1,0 +1,35 @@
+@model  FirmaİletisimBilgileri
+<link rel="stylesheet" href="~/css/SiteUpdateForm.css"/>
+<section class="iletisimForm">
+    <form asp-action="FirmaAdresCreate" method="post" enctype="multipart/form-data">
+        <h3>FirmaAdres Güncelleme Formu</h3>
+        <div class="form-container11">
+            
+            <label asp-for="FirmaAdres">FirmaAdres:</label>
+            <input asp-for="FirmaAdres" type="text" name="FirmaAdres"/>
+          
+            <label asp-for="FirmaTelefon">FirmaTelefon:</label>
+            <input asp-for="FirmaTelefon" type="text" name="FirmaTelefon"/>
+
+            <label asp-for="FirmaMail">FirmaMail</label>
+            <input asp-for="FirmaMail" type="text" name="FirmaMail"/>
+
+
+        </div>
+        <div class="button-container44">
+            <button type="submit">Güncelle</button>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
